@@ -1,0 +1,40 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background: -webkit-radial-gradient(50% 1em, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background: radial-gradient(ellipse at 50% 1em,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+}
+
+
+#mainPage { background: none; }
+
+#logoBox{ position: absolute; left: 0; top: 0; height: 70%; width: 100%;
+  background: url(../img/Flex_Biceps-100.png) no-repeat 50% 50%; 
+  -webkit-background-size: 50%;
+  background-size: 50%;
+}
+
+.icons{ position: absolute; left: 0; top: 70%; min-height: 30%; width: 100%;   }
+.icons ul{list-style: none; width: 80%; margin: 0 auto; padding: 0;}
+.icons ul li{ float: left; width: 35%; position: relative; padding-top: 35%; margin: 0 7%}
+.icons ul li a {position: absolute; top: 0; bottom: 0; left: 0; width: 100%; border-radius: 50%; color:#fff; background-color: #205468; font-weight: normal; text-shadow: none;}
+.icons ul li a:visited {color:#fff;}
+.icons ul li a:hover {text-decoration: none; }
+.icons ul li a  span{margin-top: 110%; display: block; text-align: center; font-size: 1.2em;}
+
+.ico-pushups{ background: url(../img/pushupsW.png) no-repeat center center / 70% ; }
+.ico-squats{ background: url(../img/squatsW.png) no-repeat center center / 70% ; }
+
+.footer-btn{ padding: 2em 0; background: #0A4E54; }
+.footer-btn .btn-info{ color: #0A4E54; }
+.footer-btn .btn{margin:0; outline:none; }
+
+
+#counter{ width: 100%; color: #0A4E54; text-align: center; width: 14em; height: 14em; background: #B7CEE0; border-radius: 7em; border: solid 10px #0A4E54; margin: 3em auto 0;}
+#counter span{font-size: 6em; width: 100%; line-height: 2em; }
+.counter-footer{ position: absolute; left: 0; bottom: 0; right: 0;}
+
